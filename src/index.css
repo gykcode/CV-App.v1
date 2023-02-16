@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat&display=swap');
+
+* {
+    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em 2em;
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+button,
+.hover:hover {
+    transform: scale(1.01);
+
+    transition: all 0.15s;
+}
+
+.button-group {
+    display: flex;
+    gap: 1em;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.add-form input,
+.add-form textarea {
+    padding: 1em;
+    border-radius: 0.5em;
+    resize: none;
+    border: 2px solid black;
+}
+
+.fromTo {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+}
+
+.fromTo input {
+    width: 100%;
+}

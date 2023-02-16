@@ -1,0 +1,32 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+    gap: 1em;
+}
+
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.5em;
+}
+
+.cv-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.resume {
+    border: 1px solid black;
+    height: auto;
+    width: 60em;
+    padding: 2em;
+}
+
+.switchBtn {
+    background-color: cyan;
+}
