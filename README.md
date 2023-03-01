@@ -5,9 +5,10 @@ A CV Creator App built with React, CSS, and HTML!
 
 ## Languages Used
 
-- React (JavaScript)
+- Create-react-app
 - HTML
 - CSS
+- Firebase for hosting
 
 # Getting Started with Create React App
 
